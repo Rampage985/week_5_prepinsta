@@ -1,0 +1,55 @@
+/* Custom styles for the Doctor Appointment Booking System */
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h3 {
+    color: #343a40;
+}
+
+#appointmentsList, #doctorsList {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 5px;
+}
+/* ghh */
+
+.doctor-card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 20rem;
+    background-color: #fff;
+}
+
+.booked-slot {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.doctor-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.doctor-card h5 {
+    margin-bottom: 10px;
+}
+.doctor-card p {
+    margin: 5px 0;
+}
+.doctor-card ul {
+    list-style: none;
+    padding: 0;
+}
+.doctor-card li {
+    padding: 5px;
+}
+.doctor-card li.booked {
+    color: #999;
+    text-decoration: line-through;
+}
